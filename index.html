@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Acys Bamif - Dual Counter</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Dual Counter</title>
+	<meta name="viewport" content="width=device-width">
+</head>
+
+<body>
+	<h2>COUNTER</h2>
+
+	<button id="mode-btn" onclick="mode()">Dark mode</button><br><br>
+
+	<div id="main">
+
+		<div class="box">
+			<div>
+				<p>Label: <span contenteditable="true">Counter 1</span></p>
+				<p>Increment: <input value="1" id="iValue1" type="number">
+					<button class="reset" onclick="res(1)">RESET</button>
+				</p>
+				<button class="add" onclick="min(1)">-</button>
+				<h1 id="value1">0</h1>
+				<button class="add" onclick="add(1)">+</button>
+			</div>
+		</div>
+
+		<div class="box">
+			<div>
+				<p>Label: <span contenteditable="true">Counter 2</span></p>
+				<p>Increment: <input value="1" id="iValue2" type="number">
+					<button class="reset" onclick="res(2)">RESET</button>
+				</p>
+				<button class="add" onclick="min(2)">-</button>
+				<h1 id="value2">0</h1>
+				<button class="add" onclick="add(2)">+</button>
+			</div>
+		</div>
+
+	</div>
+</body>
+
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
